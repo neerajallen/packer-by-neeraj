@@ -10,6 +10,10 @@
     "git clone https://github.com/neerajallen/node-todo-cicd.git"
   ]
 }*/
+  
+  provisioner "ansible" {
+    playbook_file = "script/application.yml"
+  }
 
 
 }
